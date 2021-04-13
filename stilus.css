@@ -23,10 +23,29 @@ body {
 .kartya {
     background-color: white;
     color: black;
-    border-bottom: solid;
-    border-color: rgba(22, 255, 146, 0.5);
+    border-bottom: 5px solid rgba(0, 182, 97, 0.5);
 }
 
 .kartya p {
     font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.kartya img {
+    border-radius: 20px;
+}
+
+.menu {
+    background-color: rgba(0, 182, 97, 0.5);
+    margin: 0;
+    padding: 0;
+}
+
+.menu div {
+    padding: 15px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
 }
