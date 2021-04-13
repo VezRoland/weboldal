@@ -43,9 +43,28 @@ body {
 
 .menu div {
     padding: 15px;
-    color: white;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 a {
+    color: white;
+}
+
+a:hover {
     text-decoration: none;
+    color: black;
+}
+
+.also {
+    position: relative;
+    width: 100%;
+    padding-top: 60px;
+    padding-left: 20px;
+    background-color: rgba(0, 182, 97, 0.5);
+}
+
+.also p {
+    position: absolute;
+    bottom: 0px;
 }
