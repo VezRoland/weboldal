@@ -1,70 +1,48 @@
 body {
-    background-color: rgba(190, 250, 222, 0.5);
-    margin: 0;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(https://t4.ftcdn.net/jpg/01/09/68/11/360_F_109681129_ynmKEVlTCjjOnUEgeWvEBJmdEyED9GEx.jpg);
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgba(112, 245, 152, 0.712);
     padding: 0;
+    margin: 0;
 }
 
 .cim {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://wallpaperaccess.com/full/2081946.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://wallpaperaccess.com/full/2081946.jpg);
     background-size: cover;
     color: white;
 }
 
 .cim h1 {
-    padding-top: 200px;
     font-size: 70px;
+    padding-top: 150px;
 }
 
 .cim p {
-    padding-bottom: 200px;
-    font-size: 20px;
+    font-size: 25px;
+    padding-bottom: 150px;
+}
+
+.kartyak {
+    margin: 20px;
 }
 
 .kartya {
     background-color: white;
-    color: black;
-    border-bottom: 5px solid rgba(0, 182, 97, 0.5);
-}
-
-.kartya p {
-    font-size: 15px;
-    padding-bottom: 20px;
-}
-
-.kartya img {
+    padding: 20px;
+    margin: 10px;
     border-radius: 20px;
 }
 
-.menu {
-    background-color: rgba(0, 182, 97, 0.5);
-    margin: 0;
-    padding: 0;
-}
-
-.menu div {
-    padding: 15px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-a {
-    color: white;
-}
-
-a:hover {
-    text-decoration: none;
-    color: black;
+.kartya img {
+    border-radius: 10px;
 }
 
 .also {
-    position: relative;
-    width: 100%;
-    padding-top: 60px;
-    padding-left: 20px;
-    background-color: rgba(0, 182, 97, 0.5);
-}
-
-.also p {
-    position: absolute;
-    bottom: 0px;
+    background-color: rgb(112, 245, 152);
+    padding: 9px 30px;
+    height: 41px;
 }
